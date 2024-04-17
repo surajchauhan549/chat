@@ -1,0 +1,35 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <!-- Home Page -->
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-4">Welcome to AI Chatbot</h1>
+        <p class="text-lg text-center text-gray-700">Start a conversation below:</p>
+        <div class="mt-8">
+            <!-- Chat Interface -->
+            <div class="border border-gray-300 rounded-lg p-4">
+                <!-- Chat Messages -->
+                <div id="chat-messages" class="mb-4">
+                    <!-- Messages will be dynamically populated here -->
+                </div>
+                <!-- Message Input -->
+                <input id="message-input" type="text" placeholder="Type your message..." class="w-full px-3 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500">
+                <button id="send-button" class="mt-2 bg-blue-500 text-white px-4 py-2 rounded-lg focus:outline-none focus:bg-blue-600">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
